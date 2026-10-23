@@ -1,0 +1,11 @@
+{
+  "name": "ucfighter",
+  "version": "1.0.0",
+  "description": "Browser rebuild of UC Fighter (2004), reconstructed from the original executable",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert": "node tools/convert-assets.mjs",
+    "start": "node tools/serve.mjs 8080"
+  }
+}
